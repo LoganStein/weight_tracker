@@ -2,6 +2,9 @@ simple react app that stores data and displays it on a chart. Data is not persis
 I wanted to publish it to github and didnt want to deal with database authentication. Just a nice little
 project to help me learn react better.
 
+Live version (firebase): https://weight-a93f5.web.app/
+Live version (Netflify): https://gallant-mcclintock-498b97.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
