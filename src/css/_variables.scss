@@ -1,0 +1,8 @@
+$headerGradientStart: #58bfc7;
+$headerGradientEnd: #2b969e;
+
+@mixin flexCenter() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

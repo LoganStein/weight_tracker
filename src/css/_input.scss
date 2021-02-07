@@ -1,0 +1,51 @@
+@import "./variables";
+
+form {
+  font-size: 2rem;
+  input {
+    padding: 0.5rem;
+    width: 100%;
+  }
+  button {
+    padding: 0.5rem;
+    width: 100%;
+  }
+}
+
+.input-Chart {
+  display: grid;
+  width: 80%;
+  grid-template-columns: 0.5fr 2fr;
+  grid-gap: 2rem;
+  //   margin-left: 10%;
+  //   margin-right: 10%;
+  margin-bottom: 30vh;
+}
+
+.weights-box {
+  margin-top: 2rem;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  grid-column: 2/3;
+}
+
+.entry-box {
+  border: 1px solid black;
+  padding: 0.25rem;
+  margin: 0.25rem;
+  border-radius: 0.5rem;
+  @include flexCenter;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  background-color: rgba(255, 0, 0, 0.671);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+button {
+  cursor: pointer;
+}

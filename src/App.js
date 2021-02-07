@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./css/main.css";
+import Header from "./Header";
+import Input from "./Input";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <>
+      <Header />
+      <center>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          *bug with fake data. When you delete an entry from fake data the
+          change fails to update until there is a change in the input box or
+          more fake data is added
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      </center>
+      <div className="mainContent">
+        <Input />
+      </div>
+    </>
   );
 }
 

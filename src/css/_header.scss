@@ -1,0 +1,10 @@
+@import "./variables";
+
+.header {
+  width: 100%;
+  height: 20vh;
+  color: white;
+  margin-bottom: 20vh;
+  background: radial-gradient($headerGradientStart, $headerGradientEnd);
+  @include flexCenter;
+}
