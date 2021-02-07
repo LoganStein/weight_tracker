@@ -1,3 +1,7 @@
+simple react app that stores data and displays it on a chart. Data is not persistent in this build because
+I wanted to publish it to github and didnt want to deal with database authentication. Just a nice little
+project to help me learn react better.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
