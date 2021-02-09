@@ -8,9 +8,14 @@ function App() {
       <Header />
       <center>
         <p>
-          *bug with fake data. When you delete an entry from fake data the
-          change fails to update until there is a change in the input box or
-          more fake data is added
+          **Bug thats not really a bug but rather something that I didn't want
+          to try and fix yet: when you remove an entry the chart won't update
+          until a change is made in the input field. Just type something there
+          and it will update.**
+        </p>
+        <p>
+          *I'll need to tell the chart to re-render when a removal request is
+          made.
         </p>
       </center>
       <div className="mainContent">
